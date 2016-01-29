@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basic HTML site</title>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex, nofollow"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <meta name="author" content="Dan White"/>
+    
+        <link rel="stylesheet" type="text/css" href="assets/css/screen-styles.css">
+        <!--[if lt IE 9]>
+        <link rel="stylesheet" type="text/css" href="http://html5shim.googlecode.com/svn/trunk/html5.js">
+<link rel="stylesheet" type="text/css" href="/assets/css/ie-conditional.css">
+        <![endif]-->
+    
+</head>
+<body>
+<!--Start Page Container -->
+<div class="grid-container">
+    <!--Start Header -->
+    <header>
+        <div class="gridrow">
+            <div id="banner_logo">
+                <a href="index.html">
+                    <h1>Basic HTML Site</h1>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Start Navigation -->
+    
+<div id="menu-bar">
+    <div class="gridrow">
+        <div class="menu-title"></div><!-- This is the toggle div for responsive menu -->
+        <nav id="topnav">
+            <ul>
+                <li><a href="#">MyLink</a></li>
+                <li class="has-submenu"><a href="#">MyLink</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">SubLink</a></li>
+                        <li><a href="#">SubLink</a></li>
+                        <li><a href="#">SubLink</a></li>
+                        <li><a href="#">SubLink</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">MyLink</a></li>
+                <li><a href="#">MyLink</a></li>
+                <li><a href="#">MyLink</a></li>
+            </ul>
+        </nav>
+    </div>
+</div>
+    
+    <!--End Navigation -->
+    <!--End Header -->
+
+    <img src="img/gears.jpg" id="banner-image"/>
+<!--Start Content -->
+<div class="gridrow">
+    <div class="col8">
+        <div>
+            <h1 class="main-headline">Content Title</h1>
+            <img src="img/Home.jpg" alt="Home Image"/>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+    </div>
+    <div class="col4">
+        <h1 class="main-headline">Sidebar Title</h1>
+        <img src="img/test.jpg" style="width:100%;"/>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+            non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+    </div>
+</div>
+<div class="gridrow">
+    <h1 class="main-headline">Another Content Title - text are 6 columns wide</h1>
+    <article>
+        <p class="col6">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+            non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+        <p class="col6">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+            non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+    </article>
+</div>    <div id="footerpush"></div>
+</div><!-- End Class Grid Container -->
+<!-- End Content  -->
+
+<!--Start Footer -->
+
+    <footer>
+    <div class="gridrow">
+        <div class="col12">
+            <p id="copyright">&copy;2016&nbsp;Basic HTML site</p>
+            <nav id="footer-nav">
+                <ul>
+                    <li><a href="#">FooterLink</a></li>
+                    <li><a href="#">FooterLink</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</footer>
+<script type="text/javascript" src="assets/js/lib/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="assets/js/toggle.js"></script>
+
+<!-- End Footer -->
+
+</body>
+</html>
